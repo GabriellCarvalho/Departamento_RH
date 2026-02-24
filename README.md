@@ -106,37 +106,4 @@ As variáveis mais relevantes para a previsão de rotatividade, com base na EDA 
 
 ---
 
-## Como Reproduzir
-
-```bash
-# Clone o repositório
-git clone https://github.com/GabriellCarvalho/Departamento_RH.git
-cd Departamento_RH
-
-# Instale as dependências
-pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn tensorflow
-
-# Execute o notebook
-jupyter notebook departamento-de-rh.ipynb
-```
-
----
-
-## Tecnologias Utilizadas
-
-![Python](https://img.shields.io/badge/Python-3.10-blue)
-![Pandas](https://img.shields.io/badge/Pandas-2.x-lightgrey)
-![Scikit-learn](https://img.shields.io/badge/ScikitLearn-1.x-orange)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-FF6F00)
-
----
-
-## Autor
-
-**Gabriel Carvalho**  
-[GitHub](https://github.com/GabriellCarvalho) · [Kaggle](https://www.kaggle.com/gabriellcarvalho)
-
----
-
 *Projeto desenvolvido para fins de estudo e portfólio em Ciência de Dados e Machine Learning.*
