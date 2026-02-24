@@ -70,8 +70,6 @@ Com base nos padrões identificados na EDA, o próximo passo é construir modelo
 |---|---|
 | **Regressão Logística** | Modelo base interpretável para classificação binária |
 | **Random Forest** | Ensemble robusto, resistente a overfitting e com importância de features |
-| **Gradient Boosting (XGBoost)** | Alto desempenho em dados tabulares com desbalanceamento |
-| **SVM (Support Vector Machine)** | Eficaz em espaços de alta dimensionalidade |
 
 ---
 
@@ -115,7 +113,7 @@ git clone https://github.com/GabriellCarvalho/Departamento_RH.git
 cd Departamento_RH
 
 # Instale as dependências
-pip install pandas numpy matplotlib seaborn scikit-learn xgboost imbalanced-learn
+pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn
 
 # Execute o notebook
 jupyter notebook departamento-de-rh.ipynb
@@ -128,7 +126,6 @@ jupyter notebook departamento-de-rh.ipynb
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-2.x-lightgrey)
 ![Scikit-learn](https://img.shields.io/badge/ScikitLearn-1.x-orange)
-![XGBoost](https://img.shields.io/badge/XGBoost-2.x-green)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
 
 ---
