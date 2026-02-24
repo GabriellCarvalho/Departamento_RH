@@ -70,6 +70,7 @@ Com base nos padrões identificados na EDA, o próximo passo é construir modelo
 |---|---|
 | **Regressão Logística** | Modelo base interpretável para classificação binária |
 | **Random Forest** | Ensemble robusto, resistente a overfitting e com importância de features |
+| **Rede Neural (MLP)** | Perceptron multicamadas com Keras/TensorFlow para capturar padrões não lineares |
 
 ---
 
@@ -113,7 +114,7 @@ git clone https://github.com/GabriellCarvalho/Departamento_RH.git
 cd Departamento_RH
 
 # Instale as dependências
-pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn
+pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn tensorflow
 
 # Execute o notebook
 jupyter notebook departamento-de-rh.ipynb
@@ -127,6 +128,7 @@ jupyter notebook departamento-de-rh.ipynb
 ![Pandas](https://img.shields.io/badge/Pandas-2.x-lightgrey)
 ![Scikit-learn](https://img.shields.io/badge/ScikitLearn-1.x-orange)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-FF6F00)
 
 ---
 
